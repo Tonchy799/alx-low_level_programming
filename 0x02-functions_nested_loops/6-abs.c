@@ -5,7 +5,7 @@
  * @c: the num to  be computed
  * Return: absolute value of a num or 0
  */
-int _abs(int)
+int _abs(int c)
 {
 	if (c < 0)
 	{
