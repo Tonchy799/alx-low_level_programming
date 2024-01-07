@@ -5,7 +5,7 @@
  * @x: the letter to check for
  * Return: 1 if uppercase, 0 if otherwise.
  */
-int _isupper(int x);
+int _isupper(int x)
 {
 	if (x >= 65 && x <= 90)
 	{
