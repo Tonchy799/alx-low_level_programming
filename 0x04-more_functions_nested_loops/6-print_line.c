@@ -3,7 +3,7 @@
 /**
  * print_line - draw a straight line in the terminal
  * @n: the number of times '_' should be printed
- * Return: Always 0 (Success)
+ * Return: void
  */
 void print_line(int n)
 {
