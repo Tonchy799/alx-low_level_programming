@@ -1,0 +1,19 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * main - prints all arguments it receives
+ * @argc: number of arguments
+ * @argv: array of arguments
+ * Retun: Always 0
+ */
+int main(int argc, char *argv[])
+{
+	int i;
+
+	for (i = 0; i <  argc; i++)
+	{
+		print("%s\n", argv[i]);
+	}
+	return (0);
+}
