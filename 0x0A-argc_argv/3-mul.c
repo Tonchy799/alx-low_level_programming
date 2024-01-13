@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -46,7 +46,7 @@ int _atoi(char *s)
  * main - multiplies two numbers
  * @argc: number of arguments
  * @argv: array of arguments
- * Return: Always 0
+ * Return: Always 0 (Success), 1 (Error)
  */
 int main(int argc, char *argv[])
 {
