@@ -2,10 +2,15 @@
 
 /**
  * _puts_recursion - prints a string followed by a new line
- * Return: Always 0
+ * Return: void
  */
 void _puts_recursion(char *s)
 {
-	puts("[*s]");
-	return (0);
+	if (*s)
+	{
+		_putchar(*s);
+		_puts_recursion(s + 1);
+	}
+	else
+		_putchar('\n');
 }
