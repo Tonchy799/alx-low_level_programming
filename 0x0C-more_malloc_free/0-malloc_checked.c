@@ -7,11 +7,12 @@
  * Return: A pointer to the allocated memory
  */
 void *malloc_checked(unsigned int b)
-	return(mem);
 {
-	void *mem = malloc(b);
+	{
+	void *new_mem;
 
-	if (mem == NULL)
+	new_mem = malloc(b);
+	if (new_mem == NULL)
 		exit(98);
+	return (new_mem);
 }
-
